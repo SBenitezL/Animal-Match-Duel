@@ -17,7 +17,7 @@ import lombok.experimental.Accessors;
 public class Error {
     /** Own Error code */
     private String errorCode;
-    /** Personalice message error */
+    /** Localized message error */
     private String message;
     /** Error response code {@code 4xx} or {@code 5xx} */
     private Integer httpCode;
