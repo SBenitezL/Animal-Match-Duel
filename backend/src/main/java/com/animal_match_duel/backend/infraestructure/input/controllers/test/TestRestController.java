@@ -12,7 +12,7 @@ import com.animal_match_duel.backend.infraestructure.input.exception.own.EntityN
 import lombok.AllArgsConstructor;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/test")
 @AllArgsConstructor
 public class TestRestController {
     private final ExceptionFormatterIntPort formatter;
